@@ -1,8 +1,6 @@
-
+import "./index.css";
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <div className="text-red-700 text-3xl">Hello</div>;
+};
 
-export default App
+export default App;
