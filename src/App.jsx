@@ -1,6 +1,11 @@
+import Header from "./components/Header";
 import "./index.css";
 const App = () => {
-  return <div className="text-red-700 text-3xl">Hello</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default App;
